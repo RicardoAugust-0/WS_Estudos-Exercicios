@@ -5,10 +5,10 @@ salario = int(input("Adicione o valor de seu salário: "))
 if (salario > 1250):
   aumento = 0.10
   salario_final = salario + (salario * aumento)
-  print(f"Seu salário com aumento é de aproximadamente {salario_final}")
+  print(f"Seu salário com aumento é de aproximadamente {salario_final:.2f}")
 elif (salario <= 1250):
   aumento = 0.15
   salario_final = salario + (salario * aumento)
-  print(f"Seu salário com aumento é de aproximadamente {salario_final}")
+  print(f"Seu salário com aumento é de aproximadamente {salario_final:.2f}")
 else:
   print("Você não inseriu números.")
