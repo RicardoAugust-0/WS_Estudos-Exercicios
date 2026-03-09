@@ -2,7 +2,7 @@
 
 distancia = float(input("Digite a distância que deseja percorrer em km: "))
 
-if (distancia <= 200):
+if distancia <= 200:
     km = 0.50
     valor_total = distancia * km
     print(f"O valor total da corrida ficou em torno de R${valor_total:.2f} reais.")
