@@ -2,39 +2,39 @@
 
 quantidade_kWh = float(input("\nQual a quantidade de kWh consumida: "))
 
-tipo_instalacao = str(input("Qual o tipo de instalação \n\n --- R para residências --- \n --- I para industrias --- \n --- C para comércios --- \n"))
+tipo_instalacao = input("Qual o tipo de instalação: \n\n --- R para residências --- \n --- I para industrias --- \n --- C para comércios --- \n")
 
 if tipo_instalacao == "r":
     if quantidade_kWh <= 500:
         preco = 0.40
         preco_total = quantidade_kWh * preco
-        print(f"O preço necessário a se pagar é de: R${quantidade_kWh:.2f} reais")
+        print(f"O preço necessário a se pagar é de: R${preco_total:.2f} reais")
 
     elif quantidade_kWh > 500:
         preco = 0.65
         preco_total = quantidade_kWh * preco
-        print(f"O preço necessário a se pagar é de: R${quantidade_kWh:.2f} reais")
+        print(f"O preço necessário a se pagar é de: R${preco_total:.2f} reais")
 
 elif tipo_instalacao == "i":
     if quantidade_kWh <= 1000:
         preco = 0.55
         preco_total = quantidade_kWh * preco
-        print(f"O preço necessário a se pagar é de: R${quantidade_kWh:.2f} reais")
+        print(f"O preço necessário a se pagar é de: R${preco_total:.2f} reais")
 
     elif quantidade_kWh > 1000:
         preco = 0.60
         preco_total = quantidade_kWh * preco
-        print(f"O preço necessário a se pagar é de: R${quantidade_kWh:.2f} reais")
+        print(f"O preço necessário a se pagar é de: R${preco_total:.2f} reais")
 
 elif tipo_instalacao == "c":
     if quantidade_kWh <= 5000:
         preco = 0.55
         preco_total = quantidade_kWh * preco
-        print(f"O preço necessário a se pagar é de: R${quantidade_kWh:.2f} reais")
+        print(f"O preço necessário a se pagar é de: R${preco_total:.2f} reais")
 
     elif quantidade_kWh > 5000:
         preco = 0.60
         preco_total = quantidade_kWh * preco
-        print(f"O preço necessário a se pagar é de: R${quantidade_kWh:.2f} reais")
+        print(f"O preço necessário a se pagar é de: R${preco_total:.2f} reais")
 else:
     print("O carácter digitado é inválido. Estamos encerrando...")
