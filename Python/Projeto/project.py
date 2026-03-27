@@ -1,5 +1,4 @@
 # Projeto 1B — Sistema de Controle de Estoque de uma Pequena Loja
-# Versão simplificada para um estudante iniciante.
 
 # Conteúdos de Python envolvidos:
 # • if e else, while, listas, dicionários, funções, menu com opções numéricas.

@@ -1,2 +1,2 @@
-# Escreva um programa que pergunte o depósito inicial e a taxa de juros de uma poupança. Exiba os valores mês a mês para os 24 primeiros meses. Escreva o total ganho com juros no período.
+# Escreva um programa para controlar uma pequena máquina registradora. Você deve solicitar ao usuário que digite o código do produto e a quantidade comprada. Use a tabela de códigos para obter o preço de cada produto. Seu programa deve exibir o total de compras depois que o usuário digitar 0. Qualquer outro código deve gerar a mensagem de erro “Código inválido”.
 
